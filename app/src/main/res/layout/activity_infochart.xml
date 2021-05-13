@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgo"
+        android:orientation="vertical"
+        tools:context=".ChartActivity">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp">
+
+        <TextView
+                android:id="@+id/pickDateBtn"
+                android:text="วันที่"
+                android:textSize="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="DD"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/editTextday"
+                android:layout_weight="1" />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="MM"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/editTextmount"
+                android:layout_weight="1" />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="YYYY"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/editTextyear"
+                android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="253dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_height="200dp">
+
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:hint="พันธุ์"
+                android:textSize="30dp"
+                android:ems="10"
+                android:id="@+id/editTexttype" />
+
+        <Button
+                android:text="ดูกราฟ"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0E7335"
+                android:id="@+id/button" />
+        <Button
+                android:text="ดูกราฟเทียบ"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0E7335"
+                android:id="@+id/button2" />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp">
+
+        <TextView
+                android:id="@+id/pickDateBtn1"
+                android:text="วันที่"
+                android:textSize="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="DD"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/editTextday1"
+                android:layout_weight="1" />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="MM"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/editTextmount1"
+                android:layout_weight="1" />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="YYYY"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/editTextyear1"
+                android:layout_weight="1" />
+
+    </LinearLayout>
+    <Button
+            android:text="ดูกราฟเดือน"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0E7335"
+            android:id="@+id/button3" />
+
+</LinearLayout>

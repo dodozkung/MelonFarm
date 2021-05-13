@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        tools:context=".InfoActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+        >
+        <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:background="@drawable/titlecs"
+
+                >
+
+            <TextView
+                    android:text="เพิ่ม/ดูข้อมูล"
+                    android:textSize="40dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:id="@+id/textView16" />
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+            >
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    tools:layout_editor_absoluteY="0dp"
+                    tools:layout_editor_absoluteX="0dp" >
+
+                <Button
+                        android:text="เพิ่มข้อมูล"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:textSize="20dp"
+
+                        android:background="@drawable/select_type"
+                        android:id="@+id/button1" />
+
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    tools:layout_editor_absoluteY="0dp"
+                    tools:layout_editor_absoluteX="0dp" >
+
+                <Button
+                        android:text="ดูข้อมูล"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:textSize="20dp"
+                        android:background="@drawable/select_type"
+                        android:id="@+id/button2" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

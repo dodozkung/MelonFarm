@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="in.codeandroid.firebasedemo">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="MelonFarm"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".MBarActivity"></activity>
+        <activity android:name=".VariActivity" />
+        <activity android:name=".ForgetActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".BarActivity" />
+        <activity android:name=".ShowplantActivity" />
+        <activity android:name=".RowActivity" />
+        <activity android:name=".SetActivity" />
+        <activity android:name=".SalanActivity" />
+        <activity android:name=".GeneActivity" />
+        <activity android:name=".MainDashboard" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".ChartActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

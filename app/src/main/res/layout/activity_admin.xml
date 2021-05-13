@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        tools:context=".BarActivity">
+
+    <LinearLayout
+            android:layout_width="278dp"
+            android:layout_height="121dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:orientation="horizontal"
+                android:background="@drawable/gr">
+
+            <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:hint="กราฟเมล่อน"
+                    android:textSize="25dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="111dp"></TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="278dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:hint="สัปดาห์ที่ :"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="111dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="278dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="120dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:hint="Week"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="111dp"
+                    android:id="@+id/textWeek"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+</FrameLayout>

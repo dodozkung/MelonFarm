@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgo"
+        tools:context=".ShowplantActivity">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteY="-3dp"
+            tools:layout_editor_absoluteX="1dp">
+        <TextView
+                android:text="พันธุ์ :"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                />
+        <TextView
+                android:text="Melon1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:id="@+id/nametype"
+                android:textAlignment="center"
+                />
+        <TextView
+                android:text="ต้นที่ :"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                />
+
+        <TextView
+                android:text="Melon1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:id="@+id/nametypeE"
+                android:textAlignment="center" />
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            tools:layout_editor_absoluteY="-3dp"
+            tools:layout_editor_absoluteX="1dp">
+        <TextView
+                android:text="จำนวนใบ :"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+
+                />
+        <TextView
+                android:text="TextView"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/text1"
+                />
+        <TextView
+                android:text="ใบ"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        tools:layout_editor_absoluteY="-3dp"
+        tools:layout_editor_absoluteX="1dp">
+    <TextView
+            android:text="ความสูงต้น :"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp" />
+    <TextView
+            android:text="TextView"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/text2" />
+        <TextView
+            android:text="ซม."
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+</LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            tools:layout_editor_absoluteY="-3dp"
+            tools:layout_editor_absoluteX="1dp">
+        <TextView
+                android:text="อายุ :"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp" />
+        <TextView
+                android:text="TextView"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/text3" />
+        <TextView
+                android:text="สัปดาห์"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="260dp"
+            tools:layout_editor_absoluteY="-3dp"
+            tools:layout_editor_absoluteX="1dp">
+        <TextView
+                android:text="คลอโลฟิลล์ :"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp" />
+        <TextView
+                android:text="TextView"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/text7" />
+        <TextView
+                android:text="mg/L"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="140dp"
+            tools:layout_editor_absoluteY="-3dp"
+            tools:layout_editor_absoluteX="1dp">
+        <TextView
+                android:text="ความกว้างใบ :"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp" />
+        <TextView
+                android:text="TextView"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/text4" />
+        <TextView
+                android:text="ซม."
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="180dp"
+            tools:layout_editor_absoluteY="-3dp"
+            tools:layout_editor_absoluteX="1dp">
+        <TextView
+                android:text="จำนวนข้อ :"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp" />
+        <TextView
+                android:text="TextView"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/text5" />
+        <TextView
+                android:text="ข้อ"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="220dp"
+            tools:layout_editor_absoluteY="-3dp"
+            tools:layout_editor_absoluteX="1dp">
+        <TextView
+                android:text="เส้นผ่านศูนย์กลาง :"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp" />
+        <TextView
+                android:text="TextView"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/text6" />
+        <TextView
+                android:text="ซม."
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                />
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/clipart949375"
+            android:id="@+id/imageView9"
+            android:layout_marginTop="400dp"/>
+
+    <ImageView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/_f73536d43c3fd89c15e90e306be397c"
+            android:id="@+id/imageView7"
+            tools:layout_editor_absoluteY="239dp"
+            tools:layout_editor_absoluteX="193dp"
+
+            android:layout_marginLeft="230dp"
+
+            android:layout_marginTop="600dp" />
+
+</RelativeLayout>
